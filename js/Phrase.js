@@ -2,11 +2,11 @@
  * Project 4 - OOP Game App
  * Phrase.js */
 
+//The class should include a constructor that receives a phrase parameter and initializes the properties.
 class Phrase {
   constructor(phrase) {
     this.phrase = phrase.toLowerCase();
   }
-
   addPhraseToDisplay() {
     let letters = this.phrase.split("");
     let phraseBox = document.getElementById("phrase");
